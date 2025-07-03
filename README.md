@@ -28,15 +28,16 @@ All network data is stored in files:
   - Automatic loading at startup if valid files exist
 ## Usage Examples
 - ### User Registration
-text
+```
 > signup
 Username: john_doe
-Password: ********
+Password: doeJohn123
 First Name: John
 Last Name: Doe
- 
+```
+
 - ### Topic Operations
-text
+```
 > search programming
 >> Advanced Programming {id: 1}
 >> Programming Basics {id: 2}
@@ -47,9 +48,10 @@ Welcome to "Advanced Programming"
 > list
 What are design patterns? {id: 101}
 How to implement polymorphism? {id: 102}
+```
 
 - ### Question Interaction
-text
+```
 > post_open 101
 Title: What are design patterns?
 Content: Can someone explain design patterns in simple terms?
@@ -61,6 +63,7 @@ Comment posted successfully!
 
 > upvote 45
 Vote recorded!
+```
 
 ## Technical Details
 - User Attributes:
@@ -84,7 +87,7 @@ Vote recorded!
   - Content
   - Score (sum of votes)
   - Unique comment ID within question
-  - 
+
 ## Requirements
 - C++ compiler supporting standard libraries
 - File system access for data persistence
