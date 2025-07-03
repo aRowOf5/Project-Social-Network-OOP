@@ -5,26 +5,26 @@ This is a console-based social network application where users can ask and answe
 ## Features
 
 - ### User Management
-  - User Registration (signup): Create a new account with first name, last name, username, and password
-  - Login (login): Authenticate with username and password
-  - Profile Editing (edit): Modify personal information (names and password)
+  - User Registration (`signup`): Create a new account with first name, last name, username, and password
+  - Login (`login`): Authenticate with username and password
+  - Profile Editing (`edit`): Modify personal information (names and password)
   - Moderator Privileges: First registered user becomes a moderator who can edit other accounts and change roles
 - ### Topic Operations
-  - Topic Creation (create): Create new topics with title and description
-  - Topic Search (search): Find topics by partial title match
-  - Topic Opening (open): View topic details and its questions
-  - Topic Listing (list): Display all questions in an open topic
+  - Topic Creation (`create`): Create new topics with title and description
+  - Topic Search (`search`): Find topics by partial title match
+  - Topic Opening (`open`): View topic details and its questions
+  - Topic Listing (`list`): Display all questions in an open topic
 - ### Question Operations
-  - Posting Questions (post): Add new questions to open topics
-  - Viewing Questions (post_open): Display question details and comments
-  - Commenting: Add comments and replies to questions
-  - Voting: Upvote/downvote comments (each user can vote once per comment)
-  - Moderation: Moderators can remove questions or entire topics
+  - Posting Questions (`post`): Add new questions to open topics
+  - Viewing Questions (`post_open`): Display question details and comments
+  - Commenting: `Add` comments and replies to questions
+  - Voting: `Upvote/downvote` comments (each user can vote once per comment)
+  - Moderation: Moderators can `remove` questions or entire topics
 
 ## Data Persistence
 All network data is stored in files:
-  - Automatic saving on application exit (exit command)
-  - Manual saving (save and save as commands)
+  - Automatic saving on application exit (`exit` command)
+  - Manual saving (`save` and `save as` commands)
   - Automatic loading at startup if valid files exist
 ## Usage Examples
 - ### User Registration
